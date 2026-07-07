@@ -1,0 +1,13 @@
+[package]
+name = "uuid-lite2"
+version = "1.0.0"
+edition = "2024"
+description = "A minimal random (v4) UUID generator."
+license = "MIT"
+
+[lib]
+name = "uuid_lite2"
+path = "src/lib.rs"
+
+[dependencies]
+getrandom = "0.4"
